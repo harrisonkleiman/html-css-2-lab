@@ -1,0 +1,53 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: lightgray;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+article {
+  padding: 50px;
+}
+
+.square {
+  background-color: rgb(18, 109, 170);
+  height: 80px;
+  width: 80px;
+  box-sizing: border-box;
+}
+
+
+.section-1 {
+  background-color: rgb(18, 109, 170);
+}
+
+.section-2 {
+  background-color: #50E3C2;
+}
+
+.section-3 {
+  background-color: #B8E986;
+}
+
+.section-4 {
+  background-color: #F8E71C;
+}
+
+.question-container {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.question-button {
+  height: 50px;
+  width: 50px;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 30px;
+}

@@ -1,0 +1,78 @@
+body {
+  padding: 30px;
+  margin: 0;
+}
+
+.container-1 {
+  border: 3px solid black;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: flex-end;
+  height: 35vh;
+}
+
+.rectangle-1 {
+  height: 160px;
+  width: 50px;
+  background-color: blueviolet;
+}
+
+.rectangle-2 {
+  width: 400px;
+  height: 200px;
+  margin: 0 50px;
+  background-color: rgb(26, 161, 26);
+}
+
+.circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(119, 215, 240);
+}
+
+.container-2 {
+  border: 5px dotted black;
+  margin-top: 30px;
+  box-sizing: border-box;
+  padding: 50px;
+  height: 45vh;
+}
+
+.c2-rectangle {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(243, 243, 174);
+  /* do shadow here */
+}
+
+.container-3 {
+  border: 1px solid black;
+  height: 350px;
+  width: 50%;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 25px auto;
+  box-shadow: 2px 2px 2px 0px;
+}
+
+.text {
+  text-align: center;
+  color: rgb(19, 19, 99);
+  letter-spacing: 5px;
+  font-size: 30px;
+  width: 100%;
+  margin-top: 20vh;
+  font-weight: bold;
+}
+
+.text-2 {
+  text-align: center;
+  color: rgb(19, 19, 99);
+  letter-spacing: 5px;
+  font-size: 30px;
+  width: 100%;
+  margin-bottom: 20vh;
+  font-weight: bold;
+}
